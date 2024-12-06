@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CreditCalculator.ExchangeRatesPage">
+    <StackLayout Padding="20">
+        <Label Text="Центробанк РФ:" FontAttributes="Bold" />
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Текущая дата: " />
+            <Label x:Name="CurrentDateLabel" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="USD: " />
+            <Label x:Name="UsdRateLabel" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="EUR: " />
+            <Label x:Name="EurRateLabel" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
